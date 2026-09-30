@@ -1,0 +1,6 @@
+{
+  "name": "CleanRoute AI – Smart Waste Management System",
+  "description": "AI-powered smart waste management platform featuring waste classification, duplicate complaint detection, predictive hotspot forecasting, and collection route optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
