@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CleanRoute AI
 
-# Run and deploy your AI Studio app
+A waste management app that helps figure out where garbage needs to be picked up and the best way to get there. It uses the Gemini API for insights and shows everything on a dashboard.
 
-This contains everything you need to run your app locally.
+## What it does
 
-View your app in AI Studio: https://ai.studio/apps/b2f0ebfb-91df-4901-b368-17b24ec4d5c5
+- Tracks waste collection and shows location data on a map
+- Suggests collection routes so trucks cover less ground
+- Uses Google Gemini to generate insights from the waste data
+- Has a dashboard with charts for spotting trends
 
-## Run Locally
+## Built with
 
-**Prerequisites:**  Node.js
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Leaflet
+- Recharts
+- Lucide React
+- Motion
 
+### Backend
+- Node.js
+- Express.js
+- dotenv
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### AI
+- Google Gemini API
+
+### Development Tools
+- npm
+- TypeScript
+- PostCSS
+- Autoprefixer
+
+## Project structure
+
+```text
+cleanroute-ai-smart-waste-management-system/
+├── src/
+│   ├── components/    # reusable UI pieces
+│   ├── pages/         # one file per screen
+│   └── services/      # API calls, Gemini integration
+├── public/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── .env.example       # copy to .env and add your keys
+├── .gitignore
+└── README.md
+```
